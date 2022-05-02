@@ -35,7 +35,7 @@
 
 <em>Question 2.1: Is the number of programs attended affected by the number of years in prison?</em>
 
-When sharing my findings with an expert, he suggested the number of program prisoners attended might be affected by the years they spent in prison. If that was the case,
+When sharing my findings with an expert, he suggested the number of program prisoners attended might be affected by the years they spent in prison. If that was the case, m
 
 
 
