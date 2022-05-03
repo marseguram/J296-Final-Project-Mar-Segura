@@ -34,13 +34,6 @@
 <img width="815" alt="Recidivism by program attendance" src="https://user-images.githubusercontent.com/99926488/166185527-5721bab7-8371-43c9-9ff3-6d61c9abdd69.png">
 
 
-
-<em>Question 2.1: Is the number of programs attended affected by the number of years in prison?</em>
-
-When sharing my findings with an expert, he suggested the number of program prisoners attended might be affected by the years they spent in prison. If that was the case, m
-
-
-
 **<em>Question 3: Does the level of education affect recidivism?</em>**
 
 **Step-by-step answer:**
