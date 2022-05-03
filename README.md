@@ -2,7 +2,6 @@
 
 ## By Mar Segura
 
-<br>
 [Link to article](https://github.com/marseguram/J296-Final-Project-Mar-Segura/blob/main/Article.md)
 
 ### Data analysis process:
