@@ -2,13 +2,14 @@
 
 ## By Mar Segura
 
+<br>
+[Link to article](https://github.com/marseguram/J296-Final-Project-Mar-Segura/blob/main/Article.md)
+
 ### Data analysis process:
 
 -Download the dataset
 
 -Go through the data to identify relevant columns to the analysis and to identify any possible mistakes or elements that should be cleaned before starting the analysis.
-<br>
-[Link to article](https://github.com/marseguram/J296-Final-Project-Mar-Segura/blob/main/Article.md)
 
 **<em>Question 1: What is the percentage of paroled prisoners who recidivated?</em>**
 
