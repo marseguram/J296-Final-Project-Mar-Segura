@@ -10,7 +10,7 @@
 
 -Go through the data to identify relevant columns to the analysis and to identify any possible mistakes or elements that should be cleaned before starting the analysis.
 
-**<em>Question 1: What is the percentage of paroled prisoners who recidivated?</em>**
+**<em>Question 1: What is the percentage of released incarcerated people who recidivated?</em>**
 
 **Step-by-step answer:**
 1. Go to the initial tab “NIJ_s_Recidivism_Challenge_Full” and create a pivot table.
@@ -69,7 +69,32 @@
 1. Go to the initial tab “NIJ_s_Recidivism_Challenge_Full” and create a pivot table.
 2. On the pivot table, set the row to “Gang_Affiliated” and the values to “Gang_Affiliated” as well. On values, it is important to select “Summarize by”-”COUNTA”.
 3. Copy the numbers and paste them into a new column under the name “Num_total_gang”, which has the numbers of all prisoners by their gang affiliation.
-4. Now create a filter in the pivot table under “Recidivism_within_3years”. In “Status” select “show per value” and then “true”. Copy the numbers and paste them into a new column under the name “Num_rec_gang”, which has the number of recidivist prisoners by their education level.
+4. Now create a filter in the pivot table under “Recidivism_within_3years”. In “Status” select “show per value” and then “true”. Copy the numbers and paste them into a new column under the name “Num_rec_gang”, which has the number of recidivist prisoners by their gang affiliation.
 5. In a new column under the name “Per_rec_by_gang”, divide the “Num_rec_gang” (D2) column into the “Num_total_gang” (C2) and multiply by one hundred. This column expresses the percentage of recidivists by gang affiliation.
 
 <img width="790" alt="screenshot pivot table gang" src="https://user-images.githubusercontent.com/99926488/166407602-11afefaa-ef42-4318-8844-7688bde8e9d4.png">
+
+**<em>Question 6: Does race affect recidivism?</em>**
+
+**Step-by-step answer:**
+
+1. Go to the initial tab “NIJ_s_Recidivism_Challenge_Full” and create a pivot table.
+2. On the pivot table, set the row to “Race” and the values to “Race” as well. On values, it is important to select “Summarize by”-”COUNTA”.
+3. Copy the numbers and paste them into a new column under the name “Num_total_gang”, which has the numbers of all prisoners by their race.
+4. Now create a filter in the pivot table under “Recidivism_within_3years”. In “Status” select “show per value” and then “true”. Copy the numbers and paste them into a new column under the name “Num_rec_gang”, which has the number of recidivist prisoners by their race.
+5. In a new column under the name “Per_rec_by_gang”, divide the “Num_rec_gang” (D2) column into the “Num_total_gang” (C2) and multiply by one hundred. This column expresses the percentage of recidivists by race.
+
+<img width="795" alt="screenshot pivot table race" src="https://user-images.githubusercontent.com/99926488/166613876-b57bbb1f-4415-42c4-aecc-e4760ec73e58.png">
+
+**<em>Question 7: Do white incarcerated people have more mental health and substance abuse issues?</em>**
+
+**Step-by-step answer:**
+
+1. Go to the initial tab “NIJ_s_Recidivism_Challenge_Full” and create a pivot table.
+2. On the pivot table, set the row to “Condition_MH_SA” and the values to “Condition_MH_SA” as well. On values, it is important to select “Summarize by”-”COUNTA”.
+3. Copy the numbers and paste them into a new column under the name “Num_total_MHSA”, which has the numbers of all prisoners by their mental health and substance abuse conditions.
+4. Now create a filter in the pivot table under “Race”. In “Status” select “show per value” and then “white”. Copy the numbers and paste them into a new column under the name “Num_MHSA_white”, which has the number of white prisoners by mental health and substance abuse conditions.
+5. In a new column under the name “Per_MHSA_white”, divide the number of white inmates without MHSA condition (D2) into the total number of white inmates (D4) and multiply by one hundred. Now do the same for white inmates with MHSA condition (D3). The column "Per_MHSA_white" expresses the percentage of white inmates with mental health and substance abuse conditions.
+6. Change the race filter to "black" and repeat the same process to get the percentage of black inmates with mental health and substance abuse conditions.
+
+<img width="793" alt="screenshot pivot table race and MHSA" src="https://user-images.githubusercontent.com/99926488/166614367-2c30b6bd-892f-4e1d-9bb5-101cc46ce08d.png">
