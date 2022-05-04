@@ -1,6 +1,6 @@
 # Attending prison programs does not keep incarcerated people from recidivating
 
-#### The number of programs in which inmates participate during their incarceration has no effect on their recidivism, our analysis has shown. Higher education and employment are some of the factors that contribute to lower recidivism rates, while gang affiliation is the factor most associated with rearrests. Race did not have any impact on recidivism.
+#### The number of programs in which inmates participate during their incarceration has no effect on their chances to recidivate, our analysis has shown. Higher education and employment are some of the factors that contribute to lower recidivism rates, while gang affiliation is the factor most associated with rearrests. Race did not have any impact on recidivism.
 
 <br>
 
